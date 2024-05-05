@@ -48,4 +48,9 @@ Este comando permite cambiar entre ramas
 ```bash
 git switch nombreRama
 ```
+## git branch -d nombreRama
+Este comando permite eliminar una rama
+```bash
+git branch -d nombreRama
+```
 
