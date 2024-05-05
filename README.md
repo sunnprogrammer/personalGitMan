@@ -13,3 +13,8 @@ Este comando inicializa git en el repositorio 'nombreRepo'
 ```bash
 git init nombreRepo
 ```
+## git status
+Este comando muestra el estado del repositorio, es decir que archivos se han modificado o que archivos estan en la zona stage listos para hacer commit.
+```bash
+git status
+```
