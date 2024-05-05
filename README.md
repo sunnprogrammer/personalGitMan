@@ -33,3 +33,9 @@ Este comando permite crear una rama con el nombre nombreRama
 ```bash
 git branch nombreRama
 ```
+## git checkout -b nombreRama
+Este comando permite crear una rama con el nombre nombreRama y a la vez pasar a esa rama creada.
+```bash
+git checkout -b nombreRama
+```
+
