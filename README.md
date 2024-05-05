@@ -78,4 +78,9 @@ Este comando permite clonar un repositorio de github.
 ```bash
 git clone <URL_del_repositorio>
 ```
+## git remote add origin <URL_del_repositorio_remoto>
+Este comando permite agregar un origen al repositorio, es decir un alias al repositorio remoto.
+```bash
+git remote add origin <URL_del_repositorio_remoto>
+```
 
