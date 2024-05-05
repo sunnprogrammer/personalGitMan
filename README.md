@@ -21,5 +21,10 @@ git status
 ## git add
 Este comando permite agregar archivos a la zona staged para posteriormente hacer commit de dichos archivos.
 ```bash
-git status
+git add
+```
+## git commit
+Este comando permite confirmar todos los cambios, es decir confirma todos los archivos modificados que estan en la zona staged.
+```bash
+git commit -m "add: comando ejemplo"
 ```
