@@ -68,4 +68,9 @@ Este comando se utiliza para fusionar la rama actual con la rama nombreRama, se 
 ```bash
 git merge nombreRama
 ```
+## git merge --abort
+Este comando permite abortar un merge.
+```bash
+git merge --abort
+```
 
