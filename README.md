@@ -38,4 +38,9 @@ Este comando permite crear una rama con el nombre nombreRama y a la vez pasar a 
 ```bash
 git checkout -b nombreRama
 ```
+## git branch
+Este comando muestra las ramas existentes localmente
+```bash
+git branch 
+```
 
