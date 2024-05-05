@@ -58,10 +58,10 @@ Este comando permite visualizar los commits hechos de manera mas resumida y graf
 ```bash
 git --graph --online
 ```
-## git merge --no-ff
+## git merge  nombreRama --no-ff
 Este comando se utiliza para forzar la creación de un commit de fusión incluso cuando Git podría hacer una fusión "fast-forward".
 ```bash
-git merge --no-ff
+git merge nombreRama --no-ff
 ```
 ## git merge nombreRama
 Este comando se utiliza para fusionar la rama actual con la rama nombreRama, se hara merge en la rama actual, es la rama nombreRama se fusiona en la rama actual donde nos encontremos.
