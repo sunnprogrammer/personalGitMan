@@ -43,4 +43,9 @@ Este comando muestra las ramas existentes localmente
 ```bash
 git branch 
 ```
+## git switch
+Este comando permite cambiar entre ramas
+```bash
+git switch nombreRama
+```
 
