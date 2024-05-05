@@ -53,4 +53,14 @@ Este comando permite eliminar una rama
 ```bash
 git branch -d nombreRama
 ```
+## git --graph --online
+Este comando permite visualizar los commits hechos de manera mas resumida y grafica
+```bash
+git --graph --online
+```
+## git 
+Este comando permite visualizar los commits hechos de manera mas resumida y grafica
+```bash
+git --graph --online
+```
 
