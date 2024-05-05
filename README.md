@@ -93,4 +93,9 @@ Este comando permite subir cambios a la rama nombreRama en el repositorio remoto
 ```bash
 git push origin nombreRama
 ```
+## git fetch nombreRemoto
+Este comando trae todos los cambios de nombreRemoto a nuestra rama local, pero no los fusiona.
+```bash
+git fetch nombreRemoto
+```
 
