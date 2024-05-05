@@ -98,4 +98,9 @@ Este comando trae todos los cambios de nombreRemoto a nuestra rama local, pero n
 ```bash
 git fetch nombreRemoto
 ```
+## git pull <nombre_remoto> <nombre_rama_remota>
+Este comando trae todos los cambios de nombreRemoto a nuestra rama local y los fusiona.
+```bash
+git pull nombreRemoto nombreRamaRemota
+```
 
