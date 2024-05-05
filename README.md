@@ -83,4 +83,9 @@ Este comando permite agregar un origen al repositorio, es decir un alias al repo
 ```bash
 git remote add origin <URL_del_repositorio_remoto>
 ```
+## git remote -v
+Este comando permite verificar si se agrego correctamente el alias al repositorio.
+```bash
+git remote -v
+```
 
