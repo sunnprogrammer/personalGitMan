@@ -88,4 +88,9 @@ Este comando permite verificar si se agrego correctamente el alias al repositori
 ```bash
 git remote -v
 ```
+## git push origin nombreRama
+Este comando permite subir cambios a la rama nombreRama en el repositorio remoto.
+```bash
+git push origin nombreRama
+```
 
