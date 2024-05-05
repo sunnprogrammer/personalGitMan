@@ -18,3 +18,8 @@ Este comando muestra el estado del repositorio, es decir que archivos se han mod
 ```bash
 git status
 ```
+## git add
+Este comando permite agregar archivos a la zona staged para posteriormente hacer commit de dichos archivos.
+```bash
+git status
+```
