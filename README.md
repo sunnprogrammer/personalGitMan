@@ -28,3 +28,8 @@ Este comando permite confirmar todos los cambios, es decir confirma todos los ar
 ```bash
 git commit -m "add: comando ejemplo"
 ```
+## git branch nombreRama
+Este comando permite crear una rama con el nombre nombreRama
+```bash
+git branch nombreRama
+```
