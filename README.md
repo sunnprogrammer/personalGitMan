@@ -73,4 +73,9 @@ Este comando permite abortar un merge.
 ```bash
 git merge --abort
 ```
+## git clone URL_del_repositorio
+Este comando permite clonar un repositorio de github.
+```bash
+git clone <URL_del_repositorio>
+```
 
