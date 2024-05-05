@@ -58,9 +58,9 @@ Este comando permite visualizar los commits hechos de manera mas resumida y graf
 ```bash
 git --graph --online
 ```
-## git 
-Este comando permite visualizar los commits hechos de manera mas resumida y grafica
+## git merge --no-ff
+Este comando se utiliza para forzar la creación de un commit de fusión incluso cuando Git podría hacer una fusión "fast-forward".
 ```bash
-git --graph --online
+git merge --no-ff
 ```
 
