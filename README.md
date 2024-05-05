@@ -103,4 +103,9 @@ Este comando trae todos los cambios de nombreRemoto a nuestra rama local y los f
 ```bash
 git pull nombreRemoto nombreRamaRemota
 ```
+## git remote prune <nombre_remoto>
+Este comando limpia aquellas ramas que que se eliminaron del repositorio remoto, pero que aun estan presentes en el repositorio local, las limpa.
+```bash
+git remote prune nombreRemoto
+```
 
