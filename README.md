@@ -143,4 +143,13 @@ Los alias permiten simplificar los nombres de los comandos para poder usarlos ma
 ```bash
 git co -> git commit
 git st -> git status
+
+Como crear un alias:
+
+git config --global alias.[nombre de alias] "comando a ejecutar"
+```
+## git commit --amend
+ESte comando permite cambiar el nombre de un commit.
+```bash
+git commit --amend -m <descripcionde commit>
 ```
