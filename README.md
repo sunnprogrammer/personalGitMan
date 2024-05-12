@@ -122,15 +122,25 @@ este comando elimina todo, desde la información en el área de staging (cuando 
 
 ```bash
 git reset --hard codigoDeComit
+git reset --hard HEAD~<N>
 ```
 ## Git reset --soft
 este comando elimina solo el historial de cambios y mantiene los commits posteriores que se realizaron luego del commit a donde se desea ir.
 ```bash
 git reset --soft codigoDeComit
+git reset --soft HEAD~<N>
 ```
 ## git revert
 git revert, deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, sin alterar el historial de commits.
 
 ```bash
 git revert codigoComit
+git revert HEAD~<N>
+```
+# Alias
+Los alias permiten simplificar los nombres de los comandos para poder usarlos mas rapido y comodamente.
+
+```bash
+git co -> git commit
+git st -> git status
 ```
