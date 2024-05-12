@@ -109,7 +109,7 @@ Este comando limpia aquellas ramas que que se eliminaron del repositorio remoto,
 git remote prune nombreremoto
 ```
 # Buenas practicas en los commit
-Al momento de realizar commits se deben realizar commits pequeños, y se deben usar prefijos como add, change, refactor, remove y la cantidad de caracteres debe ser menor a 50, tambien se debe evitar usar punto final y puntos suspensivos, a lo sumo usar la coma.
+Al momento de realizar commits se deben realizar commits pequeños, y se deben usar prefijos como add, change, refactor, remove, etc. y la cantidad de caracteres debe ser menor a 50, tambien se debe evitar usar punto final y puntos suspensivos, a lo sumo usar la coma.
 
 ```bash
 git commit "add: new button login"
@@ -117,3 +117,10 @@ git commit "change: button login"
 git commit "refactor: button login"
 git commit "remove: button login"
 ```
+## Git reset --hard
+ese comando elimina todo, desde la información en el área de staging (cuando haces git add), hasta los commits que se hizo posteriores al commit donde se desea ir.
+
+```bash
+git reset --Hard codigoDeComit
+```
+
