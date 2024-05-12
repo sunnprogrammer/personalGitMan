@@ -153,3 +153,8 @@ ESte comando permite cambiar el nombre de un commit.
 ```bash
 git commit --amend -m <descripcionde commit>
 ```
+## git checkout <SHA> <archivo>
+ESte comando permite recuperar un archivo de otra rama o commit.
+```bash
+git checkout <SHA> <archivo>
+```
