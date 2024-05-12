@@ -118,9 +118,14 @@ git commit "refactor: button login"
 git commit "remove: button login"
 ```
 ## Git reset --hard
-ese comando elimina todo, desde la información en el área de staging (cuando haces git add), hasta los commits que se hizo posteriores al commit donde se desea ir.
+este comando elimina todo, desde la información en el área de staging (cuando haces git add), hasta los commits que se hizo posteriores al commit donde se desea ir.
 
 ```bash
-git reset --Hard codigoDeComit
+git reset --hard codigoDeComit
+```
+## Git reset --soft
+este comando elimina solo el historial de cambios y mantiene los commits posteriores que se realizaron luego del commit a donde se desea ir.
+```bash
+git reset --soft codigoDeComit
 ```
 
