@@ -128,4 +128,9 @@ este comando elimina solo el historial de cambios y mantiene los commits posteri
 ```bash
 git reset --soft codigoDeComit
 ```
+## git revert
+git revert, deshace los cambios realizados por un commit anterior creando un commit completamente nuevo, sin alterar el historial de commits.
 
+```bash
+git revert codigoComit
+```
